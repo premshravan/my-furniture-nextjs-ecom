@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # e-comm-nextapp
 # e-comm-nextjs-furniture
 # e-comm-nextjs-furniture
+# E-comm-nextjs-furniture
