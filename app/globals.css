@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+@layer components{
+  .footer{
+    @apply text-xl text-black
+  }
+  .footer_link{
+    @apply cursor-pointer opacity-85 w-fit text-black text-[15px] hover:text-red-700
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
   }
 }
